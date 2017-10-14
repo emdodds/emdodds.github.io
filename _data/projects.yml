@@ -1,0 +1,14 @@
+-type: Active research
+title: Does V1 require retinal whitening?
+authors: Eric McVoy Dodds, Jesse A. Livezey, Michael R. DeWeese
+date: ongoing
+desc: A class of models of primary visual cortex (V1) appears to require retina-like preprocessing in order to learn the receptive fields measured in primate V1 simple cells. 
+
+-type: Journal Article (in preparation)
+title: Sparse structure of natural sounds and natural images
+authors: Eric McVoy Dodds, Michael R. DeWeese
+date: in preparation
+desc: We report on differences and similarities in the structure of sparse linear components of sets of natural sounds and natural images.
+img: static/img/imsounds.png
+alttext: "Sounds and images both have sparse linear features, but there are significant differences"
+
