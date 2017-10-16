@@ -17,7 +17,7 @@ My TensorFlow implementation of the ["locally competitve" sparse coding algorith
 We hope to submit a paper on this work very soon!
 
 ### Causal efficient auditory coding
-<i> Course project, Fall 2016 </i>
+<i> Course project, Fall 2016 </i> <br>
 <img src="../static/img/causalMPexample.PNG" width="150px" height="auto" title="Example of a synthesis filter for a causal efficient coding algorithm optimized for speech waveforms" align='left'>
 As my course project for Bruno Olshausen's Neural Computation course, I extended the work of [Smith and Lewicki](https://search.proquest.com/docview/204546620?pq-origsite=gscholar) on efficient auditory coding by developing a version of their convolutional Matching Pursuit-based algorithm that respects causality when forming codes of input stimuli. That is, each coefficient is committed to the code using only the part of the signal prior to the time of that coefficient. This notion of causality is likely a constraint for the real auditory nerve.
 
