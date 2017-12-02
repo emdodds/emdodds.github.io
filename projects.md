@@ -5,7 +5,7 @@ permalink: /projects/
 ---
 
 ### Spatial whitening in the retina may be necessary for V1 to learn a sparse representation of natural scenes
-<img src="../static/img/natims_examples.png" width="300px" height="auto" alt="A V1 model with local learning recovers the sparse components of natural images, but only when the images are whitened in advance." title="A V1 model with local learning recovers the sparse components of natural images (top examples), but only when the images are whitened in advance.">
+<img src="../static/img/natims_examples.png" width="300px" height="auto" alt="A V1 model with local learning recovers the sparse components of natural images, but only when the images are whitened in advance." title="A V1 model with local learning recovers the sparse components of natural images (top examples), but only when the images are whitened in advance." align='left'>
 <i> Eric McVoy Dodds, Jesse Alexander Livezey, Michael Robert DeWeese (submitted to Cosyne 2018) </i> <br>
 [Atick and Redlich](http://www.cnbc.cmu.edu/cns/papers/Atick-Redlich-NC92.pdf) showed that the receptive fields of retinal ganglion cells are consistent with these cells whitening their inputs from photoreceptors (while suppressing high-frequency noise). They suggested that such a representation might be a step towards a representation in terms of statistically independent atoms. We suggest that this particular step may be taken because it is a necessary prerequisite for learning in cortex, regardless of the other benefits of a representation without pairwise correlations.
 
