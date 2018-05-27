@@ -6,7 +6,7 @@ permalink: /projects/
 
 ### Spatial whitening in the retina may be necessary for V1 to learn a sparse representation of natural scenes
 <img src="../static/img/natims_examples.png" width="300px" height="auto" alt="A V1 model with local learning recovers the sparse components of natural images, but only when the images are whitened in advance." title="A V1 model with local learning recovers the sparse components of natural images (top examples), but only when the images are whitened in advance." align='left'>
-<i> Eric McVoy Dodds, Jesse Alexander Livezey, Michael Robert DeWeese (submitted to Cosyne 2018) </i> <br>
+<i> Eric McVoy Dodds, Jesse Alexander Livezey, Michael Robert DeWeese (in preparation) </i> <br>
 [Atick and Redlich](http://www.cnbc.cmu.edu/cns/papers/Atick-Redlich-NC92.pdf) showed that the receptive fields of retinal ganglion cells are consistent with these cells whitening their inputs from photoreceptors (while suppressing high-frequency noise). They suggested that such a representation might be a step towards a representation in terms of statistically independent atoms. We suggest that this particular step may be taken because it is a necessary prerequisite for learning in cortex, regardless of the other benefits of a representation without pairwise correlations.
 
 A successful and well-studied [model](http://redwood.berkeley.edu/bruno/papers/nature-paper.pdf) of primary visual cortex (V1) simple cell function posits that V1 is optimized for sparse representations of natural scenes. Zylberberg and colleagues [showed](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002250) that this optimization could be (at least approximately) achieved using synaptically local learning mechanisms. That is, each synapse only needs access to its own current strength and the activity of the neurons that meet at that synapse to update its strength to improve the optimization. We show that these synaptically local mechanisms only drive the model to recover the sparse features of the data and form good sparse representations when the data is <i>whitened</i> before being input to the network. 
@@ -15,14 +15,14 @@ Data is white in this sense if all directions have the same variance (the covari
 
 ### Sparse structure of natural sounds and natural images
 <img src="../static/img/imsounds.png" width="300px" height="auto" alt="Sounds and images both have sparse linear features, but there are significant differences" title="An element of a sparse coding dictionary trained on speech spectrograms, and a log histogram of its linear projections onto the data. Similarly, an example for natural images." align='left'>
-<i> Eric McVoy Dodds, Michael Robert DeWeese (article in preparation) </i> <br>
+<i> Eric McVoy Dodds, Michael Robert DeWeese (in preparation) </i> <br>
 We report on differences and similarities in the structure of sparse linear components of sets of natural sounds and natural images, and we show consequences of the differences for a neurally plausible model. 
 
 Since [Olshausen and Field showed](http://redwood.berkeley.edu/bruno/papers/nature-paper.pdf) that a network optimized to form sparse codes of natural image patches accounted for the receptive fields of simple cells in mammalian primary visual cortex, many studies have improved our understanding of sparse coding and the visual system. There has also been [some successful work](https://search.proquest.com/docview/204546620?pq-origsite=gscholar) [in the auditory domain](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002594), though the story there is less clear. It's interetesting that the principle of sparse coding seems to apply across multiple sensory modalities. My work with Mike is, as far as I know, the first to look at the sparse structure of data from two modalities side-by-side to better understand the universality of this principle and what differs between modalities. We also show that differences we observe in sparse coding of natural sounds have implications for [models with biological constraints](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002250).
 
 My TensorFlow implementation of the ["locally competitve" sparse coding algorithm](http://www.mitpressjournals.org/doi/abs/10.1162/neco.2008.03-07-486) used in this work is [here](https://github.com/emdodds/DictLearner/tf_lca.py), and my python implementation of [Zylberberg's "Sparse and Independent Local network"](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002250) is [here](https://github.com/emdodds/SAILnet.).
 
-We hope to submit a paper on this work very soon!
+We have submitted this work to a journal and hope to see it published soon!
 
 ### Causal efficient auditory coding
 <i> Course project, Fall 2016 </i> <br>
