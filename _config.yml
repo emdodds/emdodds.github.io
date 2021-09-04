@@ -16,7 +16,7 @@
 title: Eric Dodds
 email: edodds828@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
- Physics PhD candidate working on machine learning and theoretical neuroscience.
+ Machine Learning Research Scientist, Physics PhD
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
