@@ -9,7 +9,7 @@ At Yahoo I work primarily on machine learning research for vision and/or natural
 
 ### Modality-Agnostic Attention Fusion for visual search with text feedback
 <img src="../static/img/maaf.png" width="500px" height="auto" alt="Our text-image fusion mechanism uses Transformer attention to combine features from an image model and a text model." title="Our text-image fusion mechanism uses Transformer attention to combine features from an image model and a text model." align='left'>
-[(paper)](https://arxiv.org/abs/2007.00145) <it> Eric Dodds, Jack Culpepper, Simao Herdade, Yang Zhang, Kofi Boakye </it> <br>
+[(paper)](https://arxiv.org/abs/2007.00145) <i> Eric Dodds, Jack Culpepper, Simao Herdade, Yang Zhang, Kofi Boakye </i> <br>
 Visual search with text feedback provided an interesting (and potentially useful to Yahoo) testbed for combining signals from multiple modalities using dot-product attention. We found the technique effective once we got the details right, and we found some interesting and surprising phenomena in the text-image attention maps. We followed up this work with a study of pretraining and evaluation methods for this task, which is under review for publication (as of September 2021).
 
 
@@ -17,6 +17,7 @@ Visual search with text feedback provided an interesting (and potentially useful
 <img src="../static/img/product_visual_search.png" width="300px" height="auto" alt="A model trained with triplet loss using an online sampling technique can retrieve relevant images from a large catalog. Five examples shown for each query, labeled correct retrievals boxed." title="A model trained with triplet loss using an online sampling technique can retrieve relevant images from a large catalog. Five examples shown for each query, labeled correct retrievals boxed" align='left'>
 During my internship at Yahoo (then Verizon Media) I applied online sampling techniques for the triplet loss and found some other tricks to train state-of-the-art (at the time) models for visual search. Business applications have focused on matching products with content for commerce and advertisement. We also posted a [technical report](https://arxiv.org/abs/1810.04652) on the work to arXiv.
 
+<br> <br>
 ## PhD: Theoretical Neuroscience / Physics
 I completed my PhD in the physics department at UC Berkeley, but my thesis work under Mike DeWeese at the Redwood Center for Theoretical Neuroscience was only "physics" in the spirit of its quantitative methods. My PhD dissertation can be found [here](https://escholarship.org/content/qt1c05d34t/qt1c05d34t.pdf) and several major projects are described below.
 

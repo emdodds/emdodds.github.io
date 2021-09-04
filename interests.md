@@ -16,6 +16,10 @@ The goal of metric learning is to learn a function map inputs to an embedding sp
 ### Vision and language
 I am interested in multimodal models and the intersection of vision and language in particular.
 
+<br> <br>
+
+## Neuroscience
+
 ### Normative models of neural sensory systems
 In my neuroscience work, I tried to understand sensory systems (particularly vision and audition) starting with a notion of optimality -- how *should* the system work based on what we think it's trying to do? Supposing that it is beneficial to form efficient or sparse representations of sensory signals an animal encounters, for example, we expect the brain to be adapted for this purpose. We can then develop a statistic model of these signals with some of the structure and constraints of a biological neural system, and compare the parameters or behavior of this model to properties of a real brain.
 
